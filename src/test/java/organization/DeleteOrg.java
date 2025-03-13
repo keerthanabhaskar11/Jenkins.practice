@@ -1,8 +1,11 @@
 package organization;
 
+import org.testng.annotations.Test;
+
 public class DeleteOrg {
 
-	public static void main(String[] args) {
+	@Test
+	public void delOrg() {
 		// TODO Auto-generated method stub
 		System.out.println("Deleted Organization");
 		System.out.println("Validate org");

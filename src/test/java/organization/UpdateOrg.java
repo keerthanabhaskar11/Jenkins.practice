@@ -1,8 +1,11 @@
 package organization;
 
+import org.testng.annotations.Test;
+
 public class UpdateOrg 
 {
-	public static void main(String[] args) 
+	@Test
+	public void updateOrg() 
 	{
 		System.out.println("update Organization");
 		
