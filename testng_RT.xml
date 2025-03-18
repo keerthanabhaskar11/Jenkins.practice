@@ -3,13 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="contact.CreateContact"/>
-      <class name="contact.DeleteContact"/>
-      <class name="contact.UpdateContact"/>
-      <class name="organization.CreateOrg"/>
-      <class name="organization.DeleteOrg"/>
-      <class name="organization.UpdateOrg"/>
-      
+      <class name="organization.UpdateOrgTest"/>
+      <class name="contact.UpdateContactTest"/>
+      <class name="organization.DeleteOrgTest"/>
+      <class name="contact.DeleteContactTest"/>
     </classes>
-   </test> <!-- Test -->
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
