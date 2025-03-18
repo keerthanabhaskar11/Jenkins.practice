@@ -2,10 +2,10 @@ package contact;
 
 import org.testng.annotations.Test;
 
-public class DeleteContact {
+public class DeleteContactTest {
 
 	@Test
-	public  void delContact() {
+	public  void delContactTest() {
 		// TODO Auto-generated method stub
 		System.out.println("Contact Delete");
 	}

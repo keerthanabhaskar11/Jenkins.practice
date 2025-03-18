@@ -2,5 +2,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+    <classes>
+      <class name="organization.UpdateOrgTest"/>
+      <class name="contact.UpdateContactTest"/>
+      <class name="contact.CreateContactTest"/>
+      <class name="organization.CreateOrgTest"/>
+      <class name="organization.DeleteOrgTest"/>
+      <class name="contact.DeleteContactTest"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

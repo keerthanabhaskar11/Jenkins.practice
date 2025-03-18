@@ -2,10 +2,10 @@ package organization;
 
 import org.testng.annotations.Test;
 
-public class CreateOrg {
+public class CreateOrgTest {
 
 	@Test
-	public void createOrg() {
+	public void createOrgTest() {
 		// TODO Auto-generated method stub
 		System.out.println("created Organization");
 	}

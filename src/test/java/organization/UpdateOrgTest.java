@@ -2,10 +2,10 @@ package organization;
 
 import org.testng.annotations.Test;
 
-public class UpdateOrg 
+public class UpdateOrgTest 
 {
 	@Test
-	public void updateOrg() 
+	public void updateOrgTest() 
 	{
 		System.out.println("update Organization");
 		

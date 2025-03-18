@@ -2,10 +2,10 @@ package contact;
 
 import org.testng.annotations.Test;
 
-public class UpdateContact 
+public class UpdateContactTest 
 {
 	@Test
-	public void updateContact() {
+	public void updateContactTest() {
 		System.out.println("Updated Contact");
 	}
 
